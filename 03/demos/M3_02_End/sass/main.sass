@@ -1,0 +1,23 @@
+@import "node_modules/bulma/sass/utilities/initial-variables"
+
+// Customization
+$blue:  hsl(217, 10%, 53%)
+$primary: $red
+
+$size-1: 5rem
+$radius-large: 2em
+
+@import "node_modules/bulma/bulma"
+
+html
+    background: $primary
+
+h1
+    font-size: $size-1
+    color: $white
+
+#my-container
+    background: $white
+    margin: $size-1
+    padding: $size-1
+    border-radius: $radius-large
